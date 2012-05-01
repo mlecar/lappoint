@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">lAppoint</string>
+    <string name="point">Apontar</string>
+    <string name="menu_view_days">Ver Dias</string>
+    <string name="menu_delete_day">Excluir dia</string>
+    <string name="menu_delete_hour">Excluir hora</string>
+    <string name="menu_edit_hour">Editar hora</string>
+    <string name="menu_delete_hours">Excluir Horas</string>
+	<string name="no_appointments">Ainda não há apontamentos!</string>
+	<string name="menu_about">Sobre</string>
+    <string name="export_csv">Exportar CSV</string>
+	
+    <string name="sunday">Dom</string>
+    <string name="monday">Seg</string>
+    <string name="tuesday">Ter</string>
+    <string name="wednesday">Qua</string>
+    <string name="thursday">Qui</string>
+    <string name="friday">Sex</string>
+    <string name="saturday">Sab</string>
+    
+    <string name="no_appointments_day">Sem apontamentos neste dia</string>
+    
+    <string name="not_month_day">Dia não pertence ao mês corrente</string>
+    
+    <string name="appointed_day">Dia Apontado</string>
+    <string name="today_appointed_day">Hoje e Dia Apontado</string>
+    <string name="today">Hoje</string>
+    
+	<string name="about_text">lAppoint\n\nVersão: 1.3\nRelease: 2011-05-22\n\nAutor: Marcelo Lecar\nEmail: lecardroid@gmail.com\n\nÍcones do site\nhttp://www.visualpharm.com</string>
+	
+	<string name="success_appointed_hour">Hora apontada com sucesso</string>
+    <string name="already_appointed_hour">Hora já apontada</string>
+</resources>

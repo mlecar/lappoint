@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="1"
+	    android:paddingTop="10px">
+	    
+		<TableRow 
+		 	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content">
+		    
+		    <Button android:id="@+id/previousMonth" android:text="Prev" android:width="100px" />
+		        
+			<TextView android:id="@+id/currentMonthYear" 
+					    android:text="Month"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content" 
+					    android:layout_gravity="center"></TextView>
+		        
+		    <Button android:id="@+id/nextMonth" android:text="Next" android:width="100px" />
+	                
+		</TableRow>
+	
+	</TableLayout>
+
+	<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:id="@+id/weekDaysView"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:numColumns="7"
+	    android:verticalSpacing="5dp"
+	    android:horizontalSpacing="5dp"
+	    android:stretchMode="columnWidth"
+	    android:gravity="right"
+	    android:layout_gravity="right"
+	    android:paddingRight="20px"
+	/>
+	
+	<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:id="@+id/gridview"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:numColumns="7"
+	    android:verticalSpacing="5dp"
+	    android:horizontalSpacing="5dp"
+	    android:stretchMode="columnWidth"
+	    android:gravity="right"
+	    android:clickable="true"
+	    android:paddingRight="20px"
+	/>
+
+</LinearLayout>
